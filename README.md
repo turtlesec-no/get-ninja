@@ -16,11 +16,11 @@ The version string from "ninja --version"
 
 ## Example usage
 
-~~~~
-    - name: Install Ninja
-      id: ninja
-      uses: turtlesec-no/get-ninja@main
+~~~~yaml
+- name: Install Ninja
+  id: ninja
+  uses: turtlesec-no/get-ninja@main
 
-    - name: Ninja version
-      run: echo "${{ steps.ninja.outputs.version }}"
+- name: Ninja version
+  run: echo "${{ steps.ninja.outputs.version }}"
 ~~~~
