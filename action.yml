@@ -22,7 +22,7 @@ runs:
       shell: bash
       run: |
         ninja --version
-        echo "::set-output name=version::$(ninja --version)"
+        echo "version=$(ninja --version)" >> $GITHUB_OUTPUT
 branding:
   icon: "archive"
   color: "green"
