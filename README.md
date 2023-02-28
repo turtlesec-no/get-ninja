@@ -1,4 +1,5 @@
 # Get Ninja GitHub Action
+[![CI](https://github.com/turtlesec-no/get-ninja/actions/workflows/main.yml/badge.svg)](https://github.com/turtlesec-no/get-ninja/actions/workflows/main.yml)
 
 Gets the most recent Ninja
 
